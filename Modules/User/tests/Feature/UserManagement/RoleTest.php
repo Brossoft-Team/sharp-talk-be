@@ -1,24 +1,21 @@
 <?php
 
-namespace Modules\User\Tests\Feature\UserManagement;
+namespace Modules\User\tests\Feature\UserManagement;
 
-use Illuminate\Database\Eloquent\Model;
+use Illuminate\Foundation\Testing\DatabaseTransactions;
 use Modules\User\App\Models\User;
-use App\Providers\RouteServiceProvider;
 use Illuminate\Foundation\Testing\RefreshDatabase;
-use Modules\User\Database\Seeders\SeedUserRoleAndPermissionSeeder;
-use PHPUnit\Util\Test;
+use Modules\User\Database\Seeders\PermissionAndRoleSeeder;
 use Spatie\Permission\Models\Role;
 use Tests\TestCase;
 
 class RoleTest extends TestCase
 {
-    use RefreshDatabase;
+    use DatabaseTransactions;
 
     public function setUp(): void
     {
         parent::setUp();
-        SeedUserRoleAndPermissionSeeder::createPermissions();
     }
 
     public function test_role_index_page_rendered(): void

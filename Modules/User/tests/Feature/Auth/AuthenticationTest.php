@@ -1,16 +1,16 @@
 <?php
 
-namespace Modules\User\Tests\Feature\Auth;
+namespace Modules\User\tests\Feature\Auth;
 
+use Illuminate\Foundation\Testing\DatabaseTransactions;
 use Modules\User\App\Models\User;
 use App\Providers\RouteServiceProvider;
 use Illuminate\Foundation\Testing\RefreshDatabase;
-use PHPUnit\Util\Test;
 use Tests\TestCase;
 
 class AuthenticationTest extends TestCase
 {
-    use RefreshDatabase;
+    use DatabaseTransactions;
 
     public function test_login_screen_can_be_rendered(): void
     {

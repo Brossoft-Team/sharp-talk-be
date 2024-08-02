@@ -10,7 +10,8 @@
     "files": [],
     "migration": {
         "seeds": [
-            "Modules\\User\\Database\\Seeders\\SeedUserRoleAndPermissionSeeder"
+            "Modules\\User\\Database\\Seeders\\PermissionAndRoleSeeder",
+            "Modules\\User\\Database\\Seeders\\UserRoleAndPermissionSeeder"
         ]
     }
 }

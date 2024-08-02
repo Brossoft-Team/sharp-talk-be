@@ -6,7 +6,7 @@ use App\Core\Controllers\ApiController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
-use Modules\User\App\Http\Requests\Auth\LoginRequest;
+use Modules\User\App\Http\Requests\Auth\Api\ApiLoginRequest;
 use Modules\User\App\Models\User;
 use Modules\User\App\Http\Requests\Auth\Api\ApiRegisterRequest;
 use Modules\User\App\Transformers\UserResource;
@@ -21,9 +21,9 @@ class UserController extends ApiController
         return $this->successResponse(null,trans("user::index.registered"),201);
     }
 
-    public function login(LoginRequest $request)
+    public function login(ApiLoginRequest $request)
     {
-        if(Auth::attempt(["email"=>$request->email,"password"=>$request->password],$request->remember_me)){
+        if(Auth::attempt(["email"=>$request->email,"password"=>$request->password])){
             $response = [
                 "user" => UserResource::make(auth()->user()),
                 "token" => auth()->user()->createToken("pat")->plainTextToken

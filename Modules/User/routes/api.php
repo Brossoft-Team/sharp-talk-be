@@ -17,7 +17,7 @@ use \Modules\User\App\Http\Controllers\Api\UserController as ApiUserController;
 
 
 
-Route::prefix("/auth")->as("auth.")->group(function (){
+Route::prefix("/auth")->as("auth.")->middleware("guest")->group(function (){
     Route::post("/login",[ApiUserController::class,"login"])->name("login");
     Route::post("/register",[ApiUserController::class,"register"])->name("register");
 

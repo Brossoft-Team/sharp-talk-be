@@ -1,18 +1,20 @@
 <?php
 
-namespace Tests\Feature\Auth;
+namespace Modules\User\tests\Feature\Auth;
 
-use App\Models\User;
+
 use App\Providers\RouteServiceProvider;
 use Illuminate\Auth\Events\Verified;
+use Illuminate\Foundation\Testing\DatabaseTransactions;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Support\Facades\Event;
 use Illuminate\Support\Facades\URL;
+use Modules\User\App\Models\User;
 use Tests\TestCase;
 
 class EmailVerificationTest extends TestCase
 {
-    use RefreshDatabase;
+    use DatabaseTransactions;
 
     public function test_email_verification_screen_can_be_rendered(): void
     {
