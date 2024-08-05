@@ -209,8 +209,8 @@ return [
     'composer' => [
         'vendor' => env('MODULE_VENDOR', 'nwidart'),
         'author' => [
-            'name' => env('MODULE_AUTHOR_NAME', 'Nicolas Widart'),
-            'email' => env('MODULE_AUTHOR_EMAIL', 'n.widart@gmail.com'),
+            'name' => env('MODULE_AUTHOR_NAME', 'Alp Emre Elmas'),
+            'email' => env('MODULE_AUTHOR_EMAIL', 'elmasalpemre@gmail.com'),
         ],
         'composer-output' => false,
     ],

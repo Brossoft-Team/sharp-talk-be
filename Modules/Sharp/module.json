@@ -1,0 +1,16 @@
+{
+    "name": "Sharp",
+    "alias": "sharp",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Sharp\\App\\Providers\\SharpServiceProvider"
+    ],
+    "files": [],
+    "migration": {
+        "seeds": [
+            "Modules\\Sharp\\Database\\Seeders\\SharpSeeder"
+        ]
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "name": "aee/sharp-module",
+    "description": "",
+    "authors": [
+        {
+            "name": "Alp Emre Elmast",
+            "email": "elmasalpemre@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Sharp\\": "",
+            "Modules\\Sharp\\App\\": "app/",
+            "Modules\\Sharp\\Database\\Factories\\": "database/factories/",
+            "Modules\\Sharp\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\Sharp\\Tests\\": "tests/"
+        }
+    }
+}

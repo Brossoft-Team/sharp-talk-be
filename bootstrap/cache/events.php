@@ -6,4 +6,7 @@
       0 => 'Illuminate\\Auth\\Listeners\\SendEmailVerificationNotification',
     ),
   ),
+  'Modules\\Sharp\\App\\Providers\\EventServiceProvider' => 
+  array (
+  ),
 );
