@@ -385,6 +385,21 @@
         'prefix' => '',
         'foreign_key_constraints' => true,
       ),
+      'testing' => 
+      array (
+        'driver' => 'mysql',
+        'host' => '127.0.0.1',
+        'port' => '3306',
+        'database' => 'sharp-talk',
+        'username' => 'root',
+        'password' => '',
+        'unix_socket' => '',
+        'charset' => 'utf8mb4',
+        'collation' => 'utf8mb4_unicode_ci',
+        'prefix' => '',
+        'strict' => true,
+        'engine' => NULL,
+      ),
     ),
     'migrations' => 'migrations',
     'redis' => 

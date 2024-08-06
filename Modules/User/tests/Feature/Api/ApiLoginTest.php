@@ -1,10 +1,8 @@
 <?php
 
-namespace Modules\User\tests\Feature;
+namespace Modules\User\tests\Feature\Api;
 
 use Illuminate\Foundation\Testing\DatabaseTransactions;
-use Illuminate\Foundation\Testing\RefreshDatabase;
-use Modules\User\App\Models\User;
 use Tests\TestCase;
 
 class ApiLoginTest extends TestCase
@@ -18,4 +16,6 @@ class ApiLoginTest extends TestCase
 
         $response->assertStatus(422)->assertJsonValidationErrors(["email","password"],"message");
     }
+
+    //TODO: create login with correct credentials, register & api profile tests
 }
