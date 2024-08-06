@@ -12,6 +12,7 @@ class SharpSeeder extends Seeder
      */
     public function run(): void
     {
-        Sharp::factory()->count(10);
+        Sharp::factory(5)->create();
     }
+
 }

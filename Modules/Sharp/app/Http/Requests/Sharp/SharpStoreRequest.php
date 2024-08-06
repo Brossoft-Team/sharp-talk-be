@@ -1,12 +1,11 @@
 <?php
 
-namespace Modules\Sharp\App\Http\Requests;
+namespace Modules\Sharp\app\Http\Requests\Sharp;
 
 use App\Core\Requests\ApiFormRequest;
-use Illuminate\Foundation\Http\FormRequest;
 use Illuminate\Validation\Rule;
 
-class SharpUpdateRequest extends ApiFormRequest
+class SharpStoreRequest extends ApiFormRequest
 {
     /**
      * Get the validation rules that apply to the request.
@@ -16,8 +15,8 @@ class SharpUpdateRequest extends ApiFormRequest
         return [
             "title" => ["string","max:255","required"],
             "content" => ["string","required"],
-            "owner_id" => ["required",Rule::exists("users","id")],
-            //TODO: add attachments
+            "attachments" => ["nullable","array"],
+            "attachments.*" => [Rule::file()->extensions(["mp4","jpg","png","jpeg","webp"])]
         ];
     }
 

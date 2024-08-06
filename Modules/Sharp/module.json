@@ -10,7 +10,8 @@
     "files": [],
     "migration": {
         "seeds": [
-            "Modules\\Sharp\\Database\\Seeders\\SharpSeeder"
+            "Modules\\Sharp\\Database\\Seeders\\SharpSeeder",
+            "Modules\\Sharp\\Database\\Seeders\\JudgmentSeeder"
         ]
     }
 }

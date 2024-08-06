@@ -12,7 +12,7 @@
     'fallback_locale' => 'en',
     'faker_locale' => 'en_US',
     'cipher' => 'AES-256-CBC',
-    'key' => 'base64:yCfETYWtoSOg1aXCFoxr/XQKQOEYDmiNpY7zwGBuI/E=',
+    'key' => 'base64:TgX0KK9IiGlVHO+vL+xVLLa7nXdT+M1wZUaUPoCLcT0=',
     'previous_keys' => 
     array (
     ),
@@ -388,15 +388,17 @@
       'testing' => 
       array (
         'driver' => 'mysql',
+        'url' => NULL,
         'host' => '127.0.0.1',
         'port' => '3306',
-        'database' => 'sharp-talk',
-        'username' => 'root',
+        'database' => 'forge',
+        'username' => 'forge',
         'password' => '',
         'unix_socket' => '',
         'charset' => 'utf8mb4',
         'collation' => 'utf8mb4_unicode_ci',
         'prefix' => '',
+        'prefix_indexes' => true,
         'strict' => true,
         'engine' => NULL,
       ),

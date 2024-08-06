@@ -4,7 +4,7 @@ namespace Modules\Sharp\app\Http\Controllers;
 
 use App\Core\Controllers\ApiController;
 use Illuminate\Support\Facades\Request;
-use Modules\Sharp\app\Http\Requests\SharpStoreRequest;
+use Modules\Sharp\app\Http\Requests\Sharp\SharpStoreRequest;
 use Modules\Sharp\app\Models\Sharp;
 
 class SharpController extends ApiController

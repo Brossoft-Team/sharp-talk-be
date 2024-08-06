@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use Modules\Sharp\app\Http\Controllers\SharpController;
+use Modules\Sharp\app\Http\Controllers\JudgmentController;
 
 /*
  *--------------------------------------------------------------------------
@@ -16,6 +17,12 @@ use Modules\Sharp\app\Http\Controllers\SharpController;
 
 Route::middleware("auth:sanctum")->prefix("/sharps")->as("sharps.")->group(function (){
     Route::post("/",[SharpController::class,"store"])->name("store");
-    Route::delete("/{sharp}",[SharpController::class,"delete"])->name("delete");
+    Route::prefix("/{sharp}")->group(function (){
+        Route::delete("/",[SharpController::class,"delete"])->name("delete");
+        Route::prefix("/judgments")->as("judgments.")->group(function (){
+            Route::post("/",[JudgmentController::class,"store"])->name("store");
+            Route::delete("/{judgment}",[JudgmentController::class,"delete"])->name("delete");
+        });
+    });
 
 });
