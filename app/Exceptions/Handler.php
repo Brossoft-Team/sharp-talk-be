@@ -45,6 +45,10 @@ class Handler extends ExceptionHandler
     public function handleException($request, \Exception $exception)
     {
 
+        if (config('app.debug')) {
+            return parent::render($request, $exception);
+        }
+
         if ($exception instanceof MethodNotAllowedHttpException) {
             return $this->errorResponse('Bu istek için bu method uygun değildir', 405);
         }
@@ -60,10 +64,6 @@ class Handler extends ExceptionHandler
 
         if ($exception instanceof HttpException) {
             return $this->errorResponse($exception->getMessage(), $exception->getStatusCode());
-        }
-
-        if (config('app.debug')) {
-            return parent::render($request, $exception);
         }
 
         return $this->errorResponse('Bir sorun meydana geldi. Lütfen daha sonra tekrar deneyiniz.', 500);

@@ -15,6 +15,7 @@ class SharpStoreRequest extends ApiFormRequest
         return [
             "title" => ["string","max:255","required"],
             "content" => ["string","required"],
+            "is_anonymously" => ["nullable","boolean"],
             "attachments" => ["nullable","array"],
             "attachments.*" => [Rule::file()->extensions(["mp4","jpg","png","jpeg","webp"])]
         ];

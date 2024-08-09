@@ -14,7 +14,7 @@ use Spatie\MediaLibrary\InteractsWithMedia;
 
 class Sharp extends Model implements HasMedia
 {
-    use HasFactory,SoftDeletes, InteractsWithMedia;
+    use HasFactory, SoftDeletes, InteractsWithMedia;
 
     /**
      * The attributes that are mass assignable.
@@ -22,7 +22,8 @@ class Sharp extends Model implements HasMedia
     protected $fillable = [
         "title",
         "content",
-        "user_id"
+        "user_id",
+        "is_anonymously"
     ];
 
     protected static function newFactory(): SharpFactory
@@ -30,13 +31,21 @@ class Sharp extends Model implements HasMedia
         return SharpFactory::new();
     }
 
-    public function user() : BelongsTo
+    protected function casts(): array
+    {
+        return [
+            "is_anonymously" => "boolean"
+        ];
+    }
+
+    public function user(): BelongsTo
     {
         return $this->belongsTo(User::class);
     }
 
-    public function judgments() : HasMany
+    public function judgments(): HasMany
     {
         return $this->hasMany(Judgment::class);
     }
+
 }
