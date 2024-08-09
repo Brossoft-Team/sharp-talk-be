@@ -15,6 +15,12 @@ use Modules\Sharp\app\Http\Controllers\JudgmentController;
  *
 */
 
+Route::get("/sharps",[SharpController::class,"get"])->name("sharps.get");
+Route::get("/sharps/{sharp}",[SharpController::class,"getOne"])->name("sharps.getOne");
+
+Route::get("/sharps/{sharp}/judgments",[JudgmentController::class,"get"])->name("sharps.judgments.get");
+Route::get("/sharps/{sharp}/judgments/{judgment}",[JudgmentController::class,"getOne"])->name("sharps.judgments.getOne");
+
 Route::middleware("auth:sanctum")->prefix("/sharps")->as("sharps.")->group(function (){
     Route::post("/",[SharpController::class,"store"])->name("store");
     Route::prefix("/{sharp}")->group(function (){

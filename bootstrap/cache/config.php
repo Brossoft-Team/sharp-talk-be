@@ -3,7 +3,7 @@
   array (
     'name' => 'Laravel',
     'env' => 'local',
-    'debug' => true,
+    'debug' => false,
     'url' => 'http://localhost:8000',
     'frontend_url' => 'http://localhost:3000',
     'asset_url' => NULL,
@@ -1491,6 +1491,126 @@
     'http_only' => true,
     'same_site' => 'lax',
     'partitioned' => false,
+  ),
+  'telescope' => 
+  array (
+    'enabled' => true,
+    'domain' => NULL,
+    'path' => 'telescope',
+    'driver' => 'database',
+    'storage' => 
+    array (
+      'database' => 
+      array (
+        'connection' => 'mysql',
+        'chunk' => 1000,
+      ),
+    ),
+    'queue' => 
+    array (
+      'connection' => NULL,
+      'queue' => NULL,
+    ),
+    'middleware' => 
+    array (
+      0 => 'web',
+      1 => 'Laravel\\Telescope\\Http\\Middleware\\Authorize',
+    ),
+    'only_paths' => 
+    array (
+    ),
+    'ignore_paths' => 
+    array (
+      0 => 'livewire*',
+      1 => 'nova-api*',
+      2 => 'pulse*',
+    ),
+    'ignore_commands' => 
+    array (
+    ),
+    'watchers' => 
+    array (
+      'Laravel\\Telescope\\Watchers\\BatchWatcher' => true,
+      'Laravel\\Telescope\\Watchers\\CacheWatcher' => 
+      array (
+        'enabled' => true,
+        'hidden' => 
+        array (
+        ),
+      ),
+      'Laravel\\Telescope\\Watchers\\ClientRequestWatcher' => true,
+      'Laravel\\Telescope\\Watchers\\CommandWatcher' => 
+      array (
+        'enabled' => true,
+        'ignore' => 
+        array (
+        ),
+      ),
+      'Laravel\\Telescope\\Watchers\\DumpWatcher' => 
+      array (
+        'enabled' => true,
+        'always' => false,
+      ),
+      'Laravel\\Telescope\\Watchers\\EventWatcher' => 
+      array (
+        'enabled' => true,
+        'ignore' => 
+        array (
+        ),
+      ),
+      'Laravel\\Telescope\\Watchers\\ExceptionWatcher' => true,
+      'Laravel\\Telescope\\Watchers\\GateWatcher' => 
+      array (
+        'enabled' => true,
+        'ignore_abilities' => 
+        array (
+        ),
+        'ignore_packages' => true,
+        'ignore_paths' => 
+        array (
+        ),
+      ),
+      'Laravel\\Telescope\\Watchers\\JobWatcher' => true,
+      'Laravel\\Telescope\\Watchers\\LogWatcher' => 
+      array (
+        'enabled' => true,
+        'level' => 'error',
+      ),
+      'Laravel\\Telescope\\Watchers\\MailWatcher' => true,
+      'Laravel\\Telescope\\Watchers\\ModelWatcher' => 
+      array (
+        'enabled' => true,
+        'events' => 
+        array (
+          0 => 'eloquent.*',
+        ),
+        'hydrations' => true,
+      ),
+      'Laravel\\Telescope\\Watchers\\NotificationWatcher' => true,
+      'Laravel\\Telescope\\Watchers\\QueryWatcher' => 
+      array (
+        'enabled' => true,
+        'ignore_packages' => true,
+        'ignore_paths' => 
+        array (
+        ),
+        'slow' => 100,
+      ),
+      'Laravel\\Telescope\\Watchers\\RedisWatcher' => true,
+      'Laravel\\Telescope\\Watchers\\RequestWatcher' => 
+      array (
+        'enabled' => true,
+        'size_limit' => 64,
+        'ignore_http_methods' => 
+        array (
+        ),
+        'ignore_status_codes' => 
+        array (
+        ),
+      ),
+      'Laravel\\Telescope\\Watchers\\ScheduleWatcher' => true,
+      'Laravel\\Telescope\\Watchers\\ViewWatcher' => true,
+    ),
   ),
   'view' => 
   array (

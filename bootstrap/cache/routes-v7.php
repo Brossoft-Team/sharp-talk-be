@@ -27,6 +27,441 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
+      '/telescope/telescope-api/mail' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'generated::rBXaGJJHNmSBbJBb',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'POST' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/telescope/telescope-api/exceptions' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'generated::8bIMsvCenpQPhkxZ',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'POST' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/telescope/telescope-api/dumps' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'generated::VhJGPADLLhE0B7GG',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'POST' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/telescope/telescope-api/logs' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'generated::cfmgHRQzoRGSPIpE',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'POST' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/telescope/telescope-api/notifications' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'generated::hwnba5ePxHtGsUmK',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'POST' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/telescope/telescope-api/jobs' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'generated::6vjv6EkofjHO4unM',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'POST' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/telescope/telescope-api/batches' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'generated::WPfcZd6Kowrj1KfV',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'POST' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/telescope/telescope-api/events' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'generated::hABOeb3VDlhNVjji',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'POST' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/telescope/telescope-api/gates' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'generated::IBnI2XVWiZNc7XYp',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'POST' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/telescope/telescope-api/cache' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'generated::GKElqX0fcHMqwvpg',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'POST' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/telescope/telescope-api/queries' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'generated::UjNE5pdAtsrEk7IS',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'POST' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/telescope/telescope-api/models' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'generated::L5sFS2zK7L6FAZ7E',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'POST' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/telescope/telescope-api/requests' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'generated::QGIp0o5Xv6s9vw9Q',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'POST' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/telescope/telescope-api/views' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'generated::Q598duWlmecvInOG',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'POST' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/telescope/telescope-api/commands' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'generated::ZpUjUXUhULKxV0B9',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'POST' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/telescope/telescope-api/schedule' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'generated::8bFbsFoYdjzUAdE1',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'POST' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/telescope/telescope-api/redis' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'generated::RKSijaY1EYwhQdOD',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'POST' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/telescope/telescope-api/client-requests' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'generated::txi6lVh0doVr5I7o',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'POST' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/telescope/telescope-api/monitored-tags' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'generated::zlbcF0l9Igk5v9Xq',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'generated::PPN8KGahmDdYAjON',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'POST' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/telescope/telescope-api/monitored-tags/delete' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'generated::46U7SCshejnH7jTV',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'POST' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/telescope/telescope-api/toggle-recording' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'generated::qnJ18SQ8mVZWp3zA',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'POST' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/telescope/telescope-api/entries' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'generated::YsBzhBAuvgIl554I',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'DELETE' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
       '/api-docs' => 
       array (
         0 => 
@@ -151,7 +586,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::LCvPq3Y1riu2vhof',
+            '_route' => 'generated::ZgKYSaAnPxAvdDaC',
           ),
           1 => NULL,
           2 => 
@@ -171,7 +606,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::QW257wvUh45n4sYx',
+            '_route' => 'generated::W1LM6myBe0Ti8eLy',
           ),
           1 => NULL,
           2 => 
@@ -208,6 +643,23 @@ app('router')->setCompiledRoutes(
       '/api/sharps' => 
       array (
         0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'api.sharps.get',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+        1 => 
         array (
           0 => 
           array (
@@ -505,7 +957,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::LXSWV6t7VMaTdj9t',
+            '_route' => 'generated::0T1NE1BqUxDLGFA0',
           ),
           1 => NULL,
           2 => 
@@ -541,7 +993,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::VaiNYaqoQPLtqeta',
+            '_route' => 'generated::3sgI40m9jy1f8ar3',
           ),
           1 => NULL,
           2 => 
@@ -671,7 +1123,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::4wCAVmXWGZqF3zmG',
+            '_route' => 'generated::U3SLhBr0jPPn5ttK',
           ),
           1 => NULL,
           2 => 
@@ -725,11 +1177,491 @@ app('router')->setCompiledRoutes(
     ),
     2 => 
     array (
-      0 => '{^(?|/re(?|quest\\-docs/_astro/(.*js|.*css|.*png|.*jpg|.*jpeg|.*gif|.*svg|.*ico|.*woff|.*woff2|.*ttf|.*eot|.*otf|.*map)(*:120)|set\\-password/([^/]++)(*:150))|/api/sharps/([^/]++)(?|(*:182)|/judgments(?|(*:203)|/([^/]++)(*:220)))|/user\\-management/(?|users/([^/]++)(?|/(?|edit(*:276)|restore(*:291)|force\\-delete(*:312))|(*:321))|permissions/([^/]++)(?|/edit(*:358)|(*:366))|roles/([^/]++)(?|/edit(*:397)|(*:405)))|/verify\\-email/([^/]++)/([^/]++)(*:447))/?$}sDu',
+      0 => '{^(?|/telescope(?|/telescope\\-api/(?|m(?|ail/([^/]++)(?|(*:58)|/(?|preview(*:76)|download(*:91)))|odels/([^/]++)(*:114))|e(?|xceptions/([^/]++)(?|(*:148))|vents/([^/]++)(*:171))|logs/([^/]++)(*:193)|notifications/([^/]++)(*:223)|jobs/([^/]++)(*:244)|batches/([^/]++)(*:268)|gates/([^/]++)(*:290)|c(?|ache/([^/]++)(*:315)|ommands/([^/]++)(*:339)|lient\\-requests/([^/]++)(*:371))|queries/([^/]++)(*:396)|re(?|quests/([^/]++)(*:424)|dis/([^/]++)(*:444))|views/([^/]++)(*:467)|schedule/([^/]++)(*:492))|(?:/((?:.*)))?(*:515))|/re(?|quest\\-docs/_astro/(.*js|.*css|.*png|.*jpg|.*jpeg|.*gif|.*svg|.*ico|.*woff|.*woff2|.*ttf|.*eot|.*otf|.*map)(*:637)|set\\-password/([^/]++)(*:667))|/api/sharps/([^/]++)(?|(*:699)|/judgments(?|(*:720)|/([^/]++)(?|(*:740))|(*:749))|(*:758))|/user\\-management/(?|users/([^/]++)(?|/(?|edit(*:813)|restore(*:828)|force\\-delete(*:849))|(*:858))|permissions/([^/]++)(?|/edit(*:895)|(*:903))|roles/([^/]++)(?|/edit(*:934)|(*:942)))|/verify\\-email/([^/]++)/([^/]++)(*:984))/?$}sDu',
     ),
     3 => 
     array (
-      120 => 
+      58 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'generated::DHZ1V6TGtxQ2ZHJB',
+          ),
+          1 => 
+          array (
+            0 => 'telescopeEntryId',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      76 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'generated::GC7ahEwNiXs8qKPZ',
+          ),
+          1 => 
+          array (
+            0 => 'telescopeEntryId',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      91 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'generated::NIKYJz4Qp40fcxn7',
+          ),
+          1 => 
+          array (
+            0 => 'telescopeEntryId',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      114 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'generated::QjNSjqY78XDl2pWj',
+          ),
+          1 => 
+          array (
+            0 => 'telescopeEntryId',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      148 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'generated::1pDwPdO60iwd2QcO',
+          ),
+          1 => 
+          array (
+            0 => 'telescopeEntryId',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'generated::rtu4PDVCpMvnpNiV',
+          ),
+          1 => 
+          array (
+            0 => 'telescopeEntryId',
+          ),
+          2 => 
+          array (
+            'PUT' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      171 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'generated::bUAHoKt0zVTkAQRq',
+          ),
+          1 => 
+          array (
+            0 => 'telescopeEntryId',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      193 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'generated::NGYThdPGOuuSO2Cn',
+          ),
+          1 => 
+          array (
+            0 => 'telescopeEntryId',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      223 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'generated::uadYTJdMeUxYUwFz',
+          ),
+          1 => 
+          array (
+            0 => 'telescopeEntryId',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      244 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'generated::vJDR8rLsM7l5LMLN',
+          ),
+          1 => 
+          array (
+            0 => 'telescopeEntryId',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      268 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'generated::wpA8D7WArh9esTYK',
+          ),
+          1 => 
+          array (
+            0 => 'telescopeEntryId',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      290 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'generated::JVqgT5bZaSSOYaN2',
+          ),
+          1 => 
+          array (
+            0 => 'telescopeEntryId',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      315 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'generated::h2KIDqwrnRJ3QIEI',
+          ),
+          1 => 
+          array (
+            0 => 'telescopeEntryId',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      339 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'generated::yGrU6HXKsUpT7zXF',
+          ),
+          1 => 
+          array (
+            0 => 'telescopeEntryId',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      371 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'generated::uVo0R8mLDMpc1Kb8',
+          ),
+          1 => 
+          array (
+            0 => 'telescopeEntryId',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      396 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'generated::IOXYZPAvn7GchD08',
+          ),
+          1 => 
+          array (
+            0 => 'telescopeEntryId',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      424 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'generated::yGHdy6n9N1Xtnc2H',
+          ),
+          1 => 
+          array (
+            0 => 'telescopeEntryId',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      444 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'generated::cjHkMbWlmZjz8InH',
+          ),
+          1 => 
+          array (
+            0 => 'telescopeEntryId',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      467 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'generated::m70siI3OMFTHJCNT',
+          ),
+          1 => 
+          array (
+            0 => 'telescopeEntryId',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      492 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'generated::xOjtoX2Mgo4vMn0G',
+          ),
+          1 => 
+          array (
+            0 => 'telescopeEntryId',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      515 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'telescope',
+            'view' => NULL,
+          ),
+          1 => 
+          array (
+            0 => 'view',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      637 => 
       array (
         0 => 
         array (
@@ -752,7 +1684,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      150 => 
+      667 => 
       array (
         0 => 
         array (
@@ -775,17 +1707,85 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      182 => 
+      699 => 
       array (
         0 => 
         array (
           0 => 
           array (
-            '_route' => 'api.sharps.delete',
+            '_route' => 'api.sharps.getOne',
           ),
           1 => 
           array (
             0 => 'sharp',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      720 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'api.sharps.judgments.get',
+          ),
+          1 => 
+          array (
+            0 => 'sharp',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      740 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'api.sharps.judgments.getOne',
+          ),
+          1 => 
+          array (
+            0 => 'sharp',
+            1 => 'judgment',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'api.sharps.judgments.delete',
+          ),
+          1 => 
+          array (
+            0 => 'sharp',
+            1 => 'judgment',
           ),
           2 => 
           array (
@@ -797,7 +1797,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      203 => 
+      749 => 
       array (
         0 => 
         array (
@@ -819,18 +1819,17 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      220 => 
+      758 => 
       array (
         0 => 
         array (
           0 => 
           array (
-            '_route' => 'api.sharps.judgments.delete',
+            '_route' => 'api.sharps.delete',
           ),
           1 => 
           array (
             0 => 'sharp',
-            1 => 'judgment',
           ),
           2 => 
           array (
@@ -842,7 +1841,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      276 => 
+      813 => 
       array (
         0 => 
         array (
@@ -865,7 +1864,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      291 => 
+      828 => 
       array (
         0 => 
         array (
@@ -887,7 +1886,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      312 => 
+      849 => 
       array (
         0 => 
         array (
@@ -909,7 +1908,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      321 => 
+      858 => 
       array (
         0 => 
         array (
@@ -950,7 +1949,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      358 => 
+      895 => 
       array (
         0 => 
         array (
@@ -973,7 +1972,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      366 => 
+      903 => 
       array (
         0 => 
         array (
@@ -995,7 +1994,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      397 => 
+      934 => 
       array (
         0 => 
         array (
@@ -1018,7 +2017,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      405 => 
+      942 => 
       array (
         0 => 
         array (
@@ -1059,7 +2058,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      447 => 
+      984 => 
       array (
         0 => 
         array (
@@ -1127,6 +2126,1524 @@ app('router')->setCompiledRoutes(
       ),
       'wheres' => 
       array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'generated::rBXaGJJHNmSBbJBb' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'POST',
+      ),
+      'uri' => 'telescope/telescope-api/mail',
+      'action' => 
+      array (
+        'domain' => NULL,
+        'middleware' => 'telescope',
+        'uses' => 'Laravel\\Telescope\\Http\\Controllers\\MailController@index',
+        'controller' => 'Laravel\\Telescope\\Http\\Controllers\\MailController@index',
+        'namespace' => 'Laravel\\Telescope\\Http\\Controllers',
+        'prefix' => 'telescope',
+        'where' => 
+        array (
+        ),
+        'as' => 'generated::rBXaGJJHNmSBbJBb',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'generated::DHZ1V6TGtxQ2ZHJB' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'telescope/telescope-api/mail/{telescopeEntryId}',
+      'action' => 
+      array (
+        'domain' => NULL,
+        'middleware' => 'telescope',
+        'uses' => 'Laravel\\Telescope\\Http\\Controllers\\MailController@show',
+        'controller' => 'Laravel\\Telescope\\Http\\Controllers\\MailController@show',
+        'namespace' => 'Laravel\\Telescope\\Http\\Controllers',
+        'prefix' => 'telescope',
+        'where' => 
+        array (
+        ),
+        'as' => 'generated::DHZ1V6TGtxQ2ZHJB',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'generated::GC7ahEwNiXs8qKPZ' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'telescope/telescope-api/mail/{telescopeEntryId}/preview',
+      'action' => 
+      array (
+        'domain' => NULL,
+        'middleware' => 'telescope',
+        'uses' => 'Laravel\\Telescope\\Http\\Controllers\\MailHtmlController@show',
+        'controller' => 'Laravel\\Telescope\\Http\\Controllers\\MailHtmlController@show',
+        'namespace' => 'Laravel\\Telescope\\Http\\Controllers',
+        'prefix' => 'telescope',
+        'where' => 
+        array (
+        ),
+        'as' => 'generated::GC7ahEwNiXs8qKPZ',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'generated::NIKYJz4Qp40fcxn7' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'telescope/telescope-api/mail/{telescopeEntryId}/download',
+      'action' => 
+      array (
+        'domain' => NULL,
+        'middleware' => 'telescope',
+        'uses' => 'Laravel\\Telescope\\Http\\Controllers\\MailEmlController@show',
+        'controller' => 'Laravel\\Telescope\\Http\\Controllers\\MailEmlController@show',
+        'namespace' => 'Laravel\\Telescope\\Http\\Controllers',
+        'prefix' => 'telescope',
+        'where' => 
+        array (
+        ),
+        'as' => 'generated::NIKYJz4Qp40fcxn7',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'generated::8bIMsvCenpQPhkxZ' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'POST',
+      ),
+      'uri' => 'telescope/telescope-api/exceptions',
+      'action' => 
+      array (
+        'domain' => NULL,
+        'middleware' => 'telescope',
+        'uses' => 'Laravel\\Telescope\\Http\\Controllers\\ExceptionController@index',
+        'controller' => 'Laravel\\Telescope\\Http\\Controllers\\ExceptionController@index',
+        'namespace' => 'Laravel\\Telescope\\Http\\Controllers',
+        'prefix' => 'telescope',
+        'where' => 
+        array (
+        ),
+        'as' => 'generated::8bIMsvCenpQPhkxZ',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'generated::1pDwPdO60iwd2QcO' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'telescope/telescope-api/exceptions/{telescopeEntryId}',
+      'action' => 
+      array (
+        'domain' => NULL,
+        'middleware' => 'telescope',
+        'uses' => 'Laravel\\Telescope\\Http\\Controllers\\ExceptionController@show',
+        'controller' => 'Laravel\\Telescope\\Http\\Controllers\\ExceptionController@show',
+        'namespace' => 'Laravel\\Telescope\\Http\\Controllers',
+        'prefix' => 'telescope',
+        'where' => 
+        array (
+        ),
+        'as' => 'generated::1pDwPdO60iwd2QcO',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'generated::rtu4PDVCpMvnpNiV' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'PUT',
+      ),
+      'uri' => 'telescope/telescope-api/exceptions/{telescopeEntryId}',
+      'action' => 
+      array (
+        'domain' => NULL,
+        'middleware' => 'telescope',
+        'uses' => 'Laravel\\Telescope\\Http\\Controllers\\ExceptionController@update',
+        'controller' => 'Laravel\\Telescope\\Http\\Controllers\\ExceptionController@update',
+        'namespace' => 'Laravel\\Telescope\\Http\\Controllers',
+        'prefix' => 'telescope',
+        'where' => 
+        array (
+        ),
+        'as' => 'generated::rtu4PDVCpMvnpNiV',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'generated::VhJGPADLLhE0B7GG' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'POST',
+      ),
+      'uri' => 'telescope/telescope-api/dumps',
+      'action' => 
+      array (
+        'domain' => NULL,
+        'middleware' => 'telescope',
+        'uses' => 'Laravel\\Telescope\\Http\\Controllers\\DumpController@index',
+        'controller' => 'Laravel\\Telescope\\Http\\Controllers\\DumpController@index',
+        'namespace' => 'Laravel\\Telescope\\Http\\Controllers',
+        'prefix' => 'telescope',
+        'where' => 
+        array (
+        ),
+        'as' => 'generated::VhJGPADLLhE0B7GG',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'generated::cfmgHRQzoRGSPIpE' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'POST',
+      ),
+      'uri' => 'telescope/telescope-api/logs',
+      'action' => 
+      array (
+        'domain' => NULL,
+        'middleware' => 'telescope',
+        'uses' => 'Laravel\\Telescope\\Http\\Controllers\\LogController@index',
+        'controller' => 'Laravel\\Telescope\\Http\\Controllers\\LogController@index',
+        'namespace' => 'Laravel\\Telescope\\Http\\Controllers',
+        'prefix' => 'telescope',
+        'where' => 
+        array (
+        ),
+        'as' => 'generated::cfmgHRQzoRGSPIpE',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'generated::NGYThdPGOuuSO2Cn' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'telescope/telescope-api/logs/{telescopeEntryId}',
+      'action' => 
+      array (
+        'domain' => NULL,
+        'middleware' => 'telescope',
+        'uses' => 'Laravel\\Telescope\\Http\\Controllers\\LogController@show',
+        'controller' => 'Laravel\\Telescope\\Http\\Controllers\\LogController@show',
+        'namespace' => 'Laravel\\Telescope\\Http\\Controllers',
+        'prefix' => 'telescope',
+        'where' => 
+        array (
+        ),
+        'as' => 'generated::NGYThdPGOuuSO2Cn',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'generated::hwnba5ePxHtGsUmK' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'POST',
+      ),
+      'uri' => 'telescope/telescope-api/notifications',
+      'action' => 
+      array (
+        'domain' => NULL,
+        'middleware' => 'telescope',
+        'uses' => 'Laravel\\Telescope\\Http\\Controllers\\NotificationsController@index',
+        'controller' => 'Laravel\\Telescope\\Http\\Controllers\\NotificationsController@index',
+        'namespace' => 'Laravel\\Telescope\\Http\\Controllers',
+        'prefix' => 'telescope',
+        'where' => 
+        array (
+        ),
+        'as' => 'generated::hwnba5ePxHtGsUmK',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'generated::uadYTJdMeUxYUwFz' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'telescope/telescope-api/notifications/{telescopeEntryId}',
+      'action' => 
+      array (
+        'domain' => NULL,
+        'middleware' => 'telescope',
+        'uses' => 'Laravel\\Telescope\\Http\\Controllers\\NotificationsController@show',
+        'controller' => 'Laravel\\Telescope\\Http\\Controllers\\NotificationsController@show',
+        'namespace' => 'Laravel\\Telescope\\Http\\Controllers',
+        'prefix' => 'telescope',
+        'where' => 
+        array (
+        ),
+        'as' => 'generated::uadYTJdMeUxYUwFz',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'generated::6vjv6EkofjHO4unM' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'POST',
+      ),
+      'uri' => 'telescope/telescope-api/jobs',
+      'action' => 
+      array (
+        'domain' => NULL,
+        'middleware' => 'telescope',
+        'uses' => 'Laravel\\Telescope\\Http\\Controllers\\QueueController@index',
+        'controller' => 'Laravel\\Telescope\\Http\\Controllers\\QueueController@index',
+        'namespace' => 'Laravel\\Telescope\\Http\\Controllers',
+        'prefix' => 'telescope',
+        'where' => 
+        array (
+        ),
+        'as' => 'generated::6vjv6EkofjHO4unM',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'generated::vJDR8rLsM7l5LMLN' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'telescope/telescope-api/jobs/{telescopeEntryId}',
+      'action' => 
+      array (
+        'domain' => NULL,
+        'middleware' => 'telescope',
+        'uses' => 'Laravel\\Telescope\\Http\\Controllers\\QueueController@show',
+        'controller' => 'Laravel\\Telescope\\Http\\Controllers\\QueueController@show',
+        'namespace' => 'Laravel\\Telescope\\Http\\Controllers',
+        'prefix' => 'telescope',
+        'where' => 
+        array (
+        ),
+        'as' => 'generated::vJDR8rLsM7l5LMLN',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'generated::WPfcZd6Kowrj1KfV' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'POST',
+      ),
+      'uri' => 'telescope/telescope-api/batches',
+      'action' => 
+      array (
+        'domain' => NULL,
+        'middleware' => 'telescope',
+        'uses' => 'Laravel\\Telescope\\Http\\Controllers\\QueueBatchesController@index',
+        'controller' => 'Laravel\\Telescope\\Http\\Controllers\\QueueBatchesController@index',
+        'namespace' => 'Laravel\\Telescope\\Http\\Controllers',
+        'prefix' => 'telescope',
+        'where' => 
+        array (
+        ),
+        'as' => 'generated::WPfcZd6Kowrj1KfV',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'generated::wpA8D7WArh9esTYK' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'telescope/telescope-api/batches/{telescopeEntryId}',
+      'action' => 
+      array (
+        'domain' => NULL,
+        'middleware' => 'telescope',
+        'uses' => 'Laravel\\Telescope\\Http\\Controllers\\QueueBatchesController@show',
+        'controller' => 'Laravel\\Telescope\\Http\\Controllers\\QueueBatchesController@show',
+        'namespace' => 'Laravel\\Telescope\\Http\\Controllers',
+        'prefix' => 'telescope',
+        'where' => 
+        array (
+        ),
+        'as' => 'generated::wpA8D7WArh9esTYK',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'generated::hABOeb3VDlhNVjji' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'POST',
+      ),
+      'uri' => 'telescope/telescope-api/events',
+      'action' => 
+      array (
+        'domain' => NULL,
+        'middleware' => 'telescope',
+        'uses' => 'Laravel\\Telescope\\Http\\Controllers\\EventsController@index',
+        'controller' => 'Laravel\\Telescope\\Http\\Controllers\\EventsController@index',
+        'namespace' => 'Laravel\\Telescope\\Http\\Controllers',
+        'prefix' => 'telescope',
+        'where' => 
+        array (
+        ),
+        'as' => 'generated::hABOeb3VDlhNVjji',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'generated::bUAHoKt0zVTkAQRq' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'telescope/telescope-api/events/{telescopeEntryId}',
+      'action' => 
+      array (
+        'domain' => NULL,
+        'middleware' => 'telescope',
+        'uses' => 'Laravel\\Telescope\\Http\\Controllers\\EventsController@show',
+        'controller' => 'Laravel\\Telescope\\Http\\Controllers\\EventsController@show',
+        'namespace' => 'Laravel\\Telescope\\Http\\Controllers',
+        'prefix' => 'telescope',
+        'where' => 
+        array (
+        ),
+        'as' => 'generated::bUAHoKt0zVTkAQRq',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'generated::IBnI2XVWiZNc7XYp' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'POST',
+      ),
+      'uri' => 'telescope/telescope-api/gates',
+      'action' => 
+      array (
+        'domain' => NULL,
+        'middleware' => 'telescope',
+        'uses' => 'Laravel\\Telescope\\Http\\Controllers\\GatesController@index',
+        'controller' => 'Laravel\\Telescope\\Http\\Controllers\\GatesController@index',
+        'namespace' => 'Laravel\\Telescope\\Http\\Controllers',
+        'prefix' => 'telescope',
+        'where' => 
+        array (
+        ),
+        'as' => 'generated::IBnI2XVWiZNc7XYp',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'generated::JVqgT5bZaSSOYaN2' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'telescope/telescope-api/gates/{telescopeEntryId}',
+      'action' => 
+      array (
+        'domain' => NULL,
+        'middleware' => 'telescope',
+        'uses' => 'Laravel\\Telescope\\Http\\Controllers\\GatesController@show',
+        'controller' => 'Laravel\\Telescope\\Http\\Controllers\\GatesController@show',
+        'namespace' => 'Laravel\\Telescope\\Http\\Controllers',
+        'prefix' => 'telescope',
+        'where' => 
+        array (
+        ),
+        'as' => 'generated::JVqgT5bZaSSOYaN2',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'generated::GKElqX0fcHMqwvpg' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'POST',
+      ),
+      'uri' => 'telescope/telescope-api/cache',
+      'action' => 
+      array (
+        'domain' => NULL,
+        'middleware' => 'telescope',
+        'uses' => 'Laravel\\Telescope\\Http\\Controllers\\CacheController@index',
+        'controller' => 'Laravel\\Telescope\\Http\\Controllers\\CacheController@index',
+        'namespace' => 'Laravel\\Telescope\\Http\\Controllers',
+        'prefix' => 'telescope',
+        'where' => 
+        array (
+        ),
+        'as' => 'generated::GKElqX0fcHMqwvpg',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'generated::h2KIDqwrnRJ3QIEI' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'telescope/telescope-api/cache/{telescopeEntryId}',
+      'action' => 
+      array (
+        'domain' => NULL,
+        'middleware' => 'telescope',
+        'uses' => 'Laravel\\Telescope\\Http\\Controllers\\CacheController@show',
+        'controller' => 'Laravel\\Telescope\\Http\\Controllers\\CacheController@show',
+        'namespace' => 'Laravel\\Telescope\\Http\\Controllers',
+        'prefix' => 'telescope',
+        'where' => 
+        array (
+        ),
+        'as' => 'generated::h2KIDqwrnRJ3QIEI',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'generated::UjNE5pdAtsrEk7IS' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'POST',
+      ),
+      'uri' => 'telescope/telescope-api/queries',
+      'action' => 
+      array (
+        'domain' => NULL,
+        'middleware' => 'telescope',
+        'uses' => 'Laravel\\Telescope\\Http\\Controllers\\QueriesController@index',
+        'controller' => 'Laravel\\Telescope\\Http\\Controllers\\QueriesController@index',
+        'namespace' => 'Laravel\\Telescope\\Http\\Controllers',
+        'prefix' => 'telescope',
+        'where' => 
+        array (
+        ),
+        'as' => 'generated::UjNE5pdAtsrEk7IS',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'generated::IOXYZPAvn7GchD08' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'telescope/telescope-api/queries/{telescopeEntryId}',
+      'action' => 
+      array (
+        'domain' => NULL,
+        'middleware' => 'telescope',
+        'uses' => 'Laravel\\Telescope\\Http\\Controllers\\QueriesController@show',
+        'controller' => 'Laravel\\Telescope\\Http\\Controllers\\QueriesController@show',
+        'namespace' => 'Laravel\\Telescope\\Http\\Controllers',
+        'prefix' => 'telescope',
+        'where' => 
+        array (
+        ),
+        'as' => 'generated::IOXYZPAvn7GchD08',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'generated::L5sFS2zK7L6FAZ7E' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'POST',
+      ),
+      'uri' => 'telescope/telescope-api/models',
+      'action' => 
+      array (
+        'domain' => NULL,
+        'middleware' => 'telescope',
+        'uses' => 'Laravel\\Telescope\\Http\\Controllers\\ModelsController@index',
+        'controller' => 'Laravel\\Telescope\\Http\\Controllers\\ModelsController@index',
+        'namespace' => 'Laravel\\Telescope\\Http\\Controllers',
+        'prefix' => 'telescope',
+        'where' => 
+        array (
+        ),
+        'as' => 'generated::L5sFS2zK7L6FAZ7E',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'generated::QjNSjqY78XDl2pWj' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'telescope/telescope-api/models/{telescopeEntryId}',
+      'action' => 
+      array (
+        'domain' => NULL,
+        'middleware' => 'telescope',
+        'uses' => 'Laravel\\Telescope\\Http\\Controllers\\ModelsController@show',
+        'controller' => 'Laravel\\Telescope\\Http\\Controllers\\ModelsController@show',
+        'namespace' => 'Laravel\\Telescope\\Http\\Controllers',
+        'prefix' => 'telescope',
+        'where' => 
+        array (
+        ),
+        'as' => 'generated::QjNSjqY78XDl2pWj',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'generated::QGIp0o5Xv6s9vw9Q' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'POST',
+      ),
+      'uri' => 'telescope/telescope-api/requests',
+      'action' => 
+      array (
+        'domain' => NULL,
+        'middleware' => 'telescope',
+        'uses' => 'Laravel\\Telescope\\Http\\Controllers\\RequestsController@index',
+        'controller' => 'Laravel\\Telescope\\Http\\Controllers\\RequestsController@index',
+        'namespace' => 'Laravel\\Telescope\\Http\\Controllers',
+        'prefix' => 'telescope',
+        'where' => 
+        array (
+        ),
+        'as' => 'generated::QGIp0o5Xv6s9vw9Q',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'generated::yGHdy6n9N1Xtnc2H' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'telescope/telescope-api/requests/{telescopeEntryId}',
+      'action' => 
+      array (
+        'domain' => NULL,
+        'middleware' => 'telescope',
+        'uses' => 'Laravel\\Telescope\\Http\\Controllers\\RequestsController@show',
+        'controller' => 'Laravel\\Telescope\\Http\\Controllers\\RequestsController@show',
+        'namespace' => 'Laravel\\Telescope\\Http\\Controllers',
+        'prefix' => 'telescope',
+        'where' => 
+        array (
+        ),
+        'as' => 'generated::yGHdy6n9N1Xtnc2H',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'generated::Q598duWlmecvInOG' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'POST',
+      ),
+      'uri' => 'telescope/telescope-api/views',
+      'action' => 
+      array (
+        'domain' => NULL,
+        'middleware' => 'telescope',
+        'uses' => 'Laravel\\Telescope\\Http\\Controllers\\ViewsController@index',
+        'controller' => 'Laravel\\Telescope\\Http\\Controllers\\ViewsController@index',
+        'namespace' => 'Laravel\\Telescope\\Http\\Controllers',
+        'prefix' => 'telescope',
+        'where' => 
+        array (
+        ),
+        'as' => 'generated::Q598duWlmecvInOG',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'generated::m70siI3OMFTHJCNT' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'telescope/telescope-api/views/{telescopeEntryId}',
+      'action' => 
+      array (
+        'domain' => NULL,
+        'middleware' => 'telescope',
+        'uses' => 'Laravel\\Telescope\\Http\\Controllers\\ViewsController@show',
+        'controller' => 'Laravel\\Telescope\\Http\\Controllers\\ViewsController@show',
+        'namespace' => 'Laravel\\Telescope\\Http\\Controllers',
+        'prefix' => 'telescope',
+        'where' => 
+        array (
+        ),
+        'as' => 'generated::m70siI3OMFTHJCNT',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'generated::ZpUjUXUhULKxV0B9' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'POST',
+      ),
+      'uri' => 'telescope/telescope-api/commands',
+      'action' => 
+      array (
+        'domain' => NULL,
+        'middleware' => 'telescope',
+        'uses' => 'Laravel\\Telescope\\Http\\Controllers\\CommandsController@index',
+        'controller' => 'Laravel\\Telescope\\Http\\Controllers\\CommandsController@index',
+        'namespace' => 'Laravel\\Telescope\\Http\\Controllers',
+        'prefix' => 'telescope',
+        'where' => 
+        array (
+        ),
+        'as' => 'generated::ZpUjUXUhULKxV0B9',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'generated::yGrU6HXKsUpT7zXF' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'telescope/telescope-api/commands/{telescopeEntryId}',
+      'action' => 
+      array (
+        'domain' => NULL,
+        'middleware' => 'telescope',
+        'uses' => 'Laravel\\Telescope\\Http\\Controllers\\CommandsController@show',
+        'controller' => 'Laravel\\Telescope\\Http\\Controllers\\CommandsController@show',
+        'namespace' => 'Laravel\\Telescope\\Http\\Controllers',
+        'prefix' => 'telescope',
+        'where' => 
+        array (
+        ),
+        'as' => 'generated::yGrU6HXKsUpT7zXF',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'generated::8bFbsFoYdjzUAdE1' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'POST',
+      ),
+      'uri' => 'telescope/telescope-api/schedule',
+      'action' => 
+      array (
+        'domain' => NULL,
+        'middleware' => 'telescope',
+        'uses' => 'Laravel\\Telescope\\Http\\Controllers\\ScheduleController@index',
+        'controller' => 'Laravel\\Telescope\\Http\\Controllers\\ScheduleController@index',
+        'namespace' => 'Laravel\\Telescope\\Http\\Controllers',
+        'prefix' => 'telescope',
+        'where' => 
+        array (
+        ),
+        'as' => 'generated::8bFbsFoYdjzUAdE1',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'generated::xOjtoX2Mgo4vMn0G' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'telescope/telescope-api/schedule/{telescopeEntryId}',
+      'action' => 
+      array (
+        'domain' => NULL,
+        'middleware' => 'telescope',
+        'uses' => 'Laravel\\Telescope\\Http\\Controllers\\ScheduleController@show',
+        'controller' => 'Laravel\\Telescope\\Http\\Controllers\\ScheduleController@show',
+        'namespace' => 'Laravel\\Telescope\\Http\\Controllers',
+        'prefix' => 'telescope',
+        'where' => 
+        array (
+        ),
+        'as' => 'generated::xOjtoX2Mgo4vMn0G',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'generated::RKSijaY1EYwhQdOD' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'POST',
+      ),
+      'uri' => 'telescope/telescope-api/redis',
+      'action' => 
+      array (
+        'domain' => NULL,
+        'middleware' => 'telescope',
+        'uses' => 'Laravel\\Telescope\\Http\\Controllers\\RedisController@index',
+        'controller' => 'Laravel\\Telescope\\Http\\Controllers\\RedisController@index',
+        'namespace' => 'Laravel\\Telescope\\Http\\Controllers',
+        'prefix' => 'telescope',
+        'where' => 
+        array (
+        ),
+        'as' => 'generated::RKSijaY1EYwhQdOD',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'generated::cjHkMbWlmZjz8InH' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'telescope/telescope-api/redis/{telescopeEntryId}',
+      'action' => 
+      array (
+        'domain' => NULL,
+        'middleware' => 'telescope',
+        'uses' => 'Laravel\\Telescope\\Http\\Controllers\\RedisController@show',
+        'controller' => 'Laravel\\Telescope\\Http\\Controllers\\RedisController@show',
+        'namespace' => 'Laravel\\Telescope\\Http\\Controllers',
+        'prefix' => 'telescope',
+        'where' => 
+        array (
+        ),
+        'as' => 'generated::cjHkMbWlmZjz8InH',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'generated::txi6lVh0doVr5I7o' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'POST',
+      ),
+      'uri' => 'telescope/telescope-api/client-requests',
+      'action' => 
+      array (
+        'domain' => NULL,
+        'middleware' => 'telescope',
+        'uses' => 'Laravel\\Telescope\\Http\\Controllers\\ClientRequestController@index',
+        'controller' => 'Laravel\\Telescope\\Http\\Controllers\\ClientRequestController@index',
+        'namespace' => 'Laravel\\Telescope\\Http\\Controllers',
+        'prefix' => 'telescope',
+        'where' => 
+        array (
+        ),
+        'as' => 'generated::txi6lVh0doVr5I7o',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'generated::uVo0R8mLDMpc1Kb8' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'telescope/telescope-api/client-requests/{telescopeEntryId}',
+      'action' => 
+      array (
+        'domain' => NULL,
+        'middleware' => 'telescope',
+        'uses' => 'Laravel\\Telescope\\Http\\Controllers\\ClientRequestController@show',
+        'controller' => 'Laravel\\Telescope\\Http\\Controllers\\ClientRequestController@show',
+        'namespace' => 'Laravel\\Telescope\\Http\\Controllers',
+        'prefix' => 'telescope',
+        'where' => 
+        array (
+        ),
+        'as' => 'generated::uVo0R8mLDMpc1Kb8',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'generated::zlbcF0l9Igk5v9Xq' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'telescope/telescope-api/monitored-tags',
+      'action' => 
+      array (
+        'domain' => NULL,
+        'middleware' => 'telescope',
+        'uses' => 'Laravel\\Telescope\\Http\\Controllers\\MonitoredTagController@index',
+        'controller' => 'Laravel\\Telescope\\Http\\Controllers\\MonitoredTagController@index',
+        'namespace' => 'Laravel\\Telescope\\Http\\Controllers',
+        'prefix' => 'telescope',
+        'where' => 
+        array (
+        ),
+        'as' => 'generated::zlbcF0l9Igk5v9Xq',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'generated::PPN8KGahmDdYAjON' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'POST',
+      ),
+      'uri' => 'telescope/telescope-api/monitored-tags',
+      'action' => 
+      array (
+        'domain' => NULL,
+        'middleware' => 'telescope',
+        'uses' => 'Laravel\\Telescope\\Http\\Controllers\\MonitoredTagController@store',
+        'controller' => 'Laravel\\Telescope\\Http\\Controllers\\MonitoredTagController@store',
+        'namespace' => 'Laravel\\Telescope\\Http\\Controllers',
+        'prefix' => 'telescope',
+        'where' => 
+        array (
+        ),
+        'as' => 'generated::PPN8KGahmDdYAjON',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'generated::46U7SCshejnH7jTV' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'POST',
+      ),
+      'uri' => 'telescope/telescope-api/monitored-tags/delete',
+      'action' => 
+      array (
+        'domain' => NULL,
+        'middleware' => 'telescope',
+        'uses' => 'Laravel\\Telescope\\Http\\Controllers\\MonitoredTagController@destroy',
+        'controller' => 'Laravel\\Telescope\\Http\\Controllers\\MonitoredTagController@destroy',
+        'namespace' => 'Laravel\\Telescope\\Http\\Controllers',
+        'prefix' => 'telescope',
+        'where' => 
+        array (
+        ),
+        'as' => 'generated::46U7SCshejnH7jTV',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'generated::qnJ18SQ8mVZWp3zA' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'POST',
+      ),
+      'uri' => 'telescope/telescope-api/toggle-recording',
+      'action' => 
+      array (
+        'domain' => NULL,
+        'middleware' => 'telescope',
+        'uses' => 'Laravel\\Telescope\\Http\\Controllers\\RecordingController@toggle',
+        'controller' => 'Laravel\\Telescope\\Http\\Controllers\\RecordingController@toggle',
+        'namespace' => 'Laravel\\Telescope\\Http\\Controllers',
+        'prefix' => 'telescope',
+        'where' => 
+        array (
+        ),
+        'as' => 'generated::qnJ18SQ8mVZWp3zA',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'generated::YsBzhBAuvgIl554I' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'DELETE',
+      ),
+      'uri' => 'telescope/telescope-api/entries',
+      'action' => 
+      array (
+        'domain' => NULL,
+        'middleware' => 'telescope',
+        'uses' => 'Laravel\\Telescope\\Http\\Controllers\\EntriesController@destroy',
+        'controller' => 'Laravel\\Telescope\\Http\\Controllers\\EntriesController@destroy',
+        'namespace' => 'Laravel\\Telescope\\Http\\Controllers',
+        'prefix' => 'telescope',
+        'where' => 
+        array (
+        ),
+        'as' => 'generated::YsBzhBAuvgIl554I',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'telescope' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'telescope/{view?}',
+      'action' => 
+      array (
+        'domain' => NULL,
+        'middleware' => 'telescope',
+        'uses' => 'Laravel\\Telescope\\Http\\Controllers\\HomeController@index',
+        'controller' => 'Laravel\\Telescope\\Http\\Controllers\\HomeController@index',
+        'namespace' => 'Laravel\\Telescope\\Http\\Controllers',
+        'prefix' => 'telescope',
+        'where' => 
+        array (
+        ),
+        'as' => 'telescope',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+        'view' => '(.*)',
       ),
       'bindingFields' => 
       array (
@@ -1373,7 +3890,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::LCvPq3Y1riu2vhof' => 
+    'generated::ZgKYSaAnPxAvdDaC' => 
     array (
       'methods' => 
       array (
@@ -1390,13 +3907,13 @@ app('router')->setCompiledRoutes(
         ),
         'uses' => 'O:55:"Laravel\\SerializableClosure\\UnsignedSerializableClosure":1:{s:12:"serializable";O:46:"Laravel\\SerializableClosure\\Serializers\\Native":5:{s:3:"use";a:0:{}s:8:"function";s:77:"function (\\Illuminate\\Http\\Request $request) {
     return $request->user();
-}";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000000008350000000000000000";}}',
+}";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000000008a90000000000000000";}}',
         'namespace' => NULL,
         'prefix' => 'api',
         'where' => 
         array (
         ),
-        'as' => 'generated::LCvPq3Y1riu2vhof',
+        'as' => 'generated::ZgKYSaAnPxAvdDaC',
       ),
       'fallback' => false,
       'defaults' => 
@@ -1412,7 +3929,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::QW257wvUh45n4sYx' => 
+    'generated::W1LM6myBe0Ti8eLy' => 
     array (
       'methods' => 
       array (
@@ -1428,13 +3945,13 @@ app('router')->setCompiledRoutes(
         ),
         'uses' => 'O:55:"Laravel\\SerializableClosure\\UnsignedSerializableClosure":1:{s:12:"serializable";O:46:"Laravel\\SerializableClosure\\Serializers\\Native":5:{s:3:"use";a:0:{}s:8:"function";s:44:"function () {
     return \\view(\'welcome\');
-}";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000000008370000000000000000";}}',
+}";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000000008ab0000000000000000";}}',
         'namespace' => NULL,
         'prefix' => '',
         'where' => 
         array (
         ),
-        'as' => 'generated::QW257wvUh45n4sYx',
+        'as' => 'generated::W1LM6myBe0Ti8eLy',
       ),
       'fallback' => false,
       'defaults' => 
@@ -1467,13 +3984,161 @@ app('router')->setCompiledRoutes(
         ),
         'uses' => 'O:55:"Laravel\\SerializableClosure\\UnsignedSerializableClosure":1:{s:12:"serializable";O:46:"Laravel\\SerializableClosure\\Serializers\\Native":5:{s:3:"use";a:0:{}s:8:"function";s:52:"function () {
     return \\view(\'admin.dashboard\');
-}";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000000008390000000000000000";}}',
+}";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000000008ad0000000000000000";}}',
         'namespace' => NULL,
         'prefix' => '',
         'where' => 
         array (
         ),
         'as' => 'dashboard',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'api.sharps.get' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'api/sharps',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'api',
+        ),
+        'uses' => 'Modules\\Sharp\\app\\Http\\Controllers\\SharpController@get',
+        'controller' => 'Modules\\Sharp\\app\\Http\\Controllers\\SharpController@get',
+        'as' => 'api.sharps.get',
+        'namespace' => NULL,
+        'prefix' => 'api',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'api.sharps.getOne' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'api/sharps/{sharp}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'api',
+        ),
+        'uses' => 'Modules\\Sharp\\app\\Http\\Controllers\\SharpController@getOne',
+        'controller' => 'Modules\\Sharp\\app\\Http\\Controllers\\SharpController@getOne',
+        'as' => 'api.sharps.getOne',
+        'namespace' => NULL,
+        'prefix' => 'api',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'api.sharps.judgments.get' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'api/sharps/{sharp}/judgments',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'api',
+        ),
+        'uses' => 'Modules\\Sharp\\app\\Http\\Controllers\\JudgmentController@get',
+        'controller' => 'Modules\\Sharp\\app\\Http\\Controllers\\JudgmentController@get',
+        'as' => 'api.sharps.judgments.get',
+        'namespace' => NULL,
+        'prefix' => 'api',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'api.sharps.judgments.getOne' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'api/sharps/{sharp}/judgments/{judgment}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'api',
+        ),
+        'uses' => 'Modules\\Sharp\\app\\Http\\Controllers\\JudgmentController@getOne',
+        'controller' => 'Modules\\Sharp\\app\\Http\\Controllers\\JudgmentController@getOne',
+        'as' => 'api.sharps.judgments.getOne',
+        'namespace' => NULL,
+        'prefix' => 'api',
+        'where' => 
+        array (
+        ),
       ),
       'fallback' => false,
       'defaults' => 
@@ -2608,7 +5273,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::LXSWV6t7VMaTdj9t' => 
+    'generated::0T1NE1BqUxDLGFA0' => 
     array (
       'methods' => 
       array (
@@ -2629,7 +5294,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::LXSWV6t7VMaTdj9t',
+        'as' => 'generated::0T1NE1BqUxDLGFA0',
       ),
       'fallback' => false,
       'defaults' => 
@@ -2683,7 +5348,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::VaiNYaqoQPLtqeta' => 
+    'generated::3sgI40m9jy1f8ar3' => 
     array (
       'methods' => 
       array (
@@ -2704,7 +5369,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::VaiNYaqoQPLtqeta',
+        'as' => 'generated::3sgI40m9jy1f8ar3',
       ),
       'fallback' => false,
       'defaults' => 
@@ -3024,7 +5689,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::4wCAVmXWGZqF3zmG' => 
+    'generated::U3SLhBr0jPPn5ttK' => 
     array (
       'methods' => 
       array (
@@ -3045,7 +5710,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::4wCAVmXWGZqF3zmG',
+        'as' => 'generated::U3SLhBr0jPPn5ttK',
       ),
       'fallback' => false,
       'defaults' => 

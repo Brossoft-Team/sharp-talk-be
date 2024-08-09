@@ -7,9 +7,19 @@ use Illuminate\Http\Request;
 use Modules\Sharp\app\Http\Requests\Judgment\JudgmentStoreRequest;
 use Modules\Sharp\app\Models\Judgment;
 use Modules\Sharp\app\Models\Sharp;
+use Modules\Sharp\app\Transformers\JudgmentResource;
 
 class JudgmentController extends ApiController
 {
+    public function get(Sharp $sharp)
+    {
+        return JudgmentResource::collection($sharp->judgments()->with(["user"])->withCount("judgments")->inRandomOrder('1234')->paginate());
+    }
+
+    public function getOne(Sharp $sharp, Judgment $judgment)
+    {
+        return JudgmentResource::make($judgment->load(["user","judgments"])->loadCount("judgments"))->additional(["sharp" => $sharp]);
+    }
 
     public function store(JudgmentStoreRequest $request, Sharp $sharp)
     {

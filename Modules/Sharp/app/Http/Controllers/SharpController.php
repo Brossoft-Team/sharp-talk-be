@@ -6,9 +6,21 @@ use App\Core\Controllers\ApiController;
 use Illuminate\Support\Facades\Request;
 use Modules\Sharp\app\Http\Requests\Sharp\SharpStoreRequest;
 use Modules\Sharp\app\Models\Sharp;
+use Modules\Sharp\app\Transformers\SharpResource;
 
 class SharpController extends ApiController
 {
+
+    public function get()
+    {
+        return SharpResource::collection(Sharp::with(["user"])->withCount("judgments")->inRandomOrder('1234')->paginate());
+    }
+
+    public function getOne(Sharp $sharp)
+    {
+        return SharpResource::make($sharp->load(["user","judgments"])->loadCount("judgments"));
+    }
+
     public function store(SharpStoreRequest $request)
     {
         $sharp = Sharp::create(array_merge($request->validated(),["user_id"=>auth()->user()->id]));
